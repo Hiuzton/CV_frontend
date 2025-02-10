@@ -1,0 +1,13 @@
+body {
+  background-color: #f8f9fa; /* Light Bootstrap-compatible background */
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+a:hover {
+  color: #0056b3;
+}

@@ -1,0 +1,8 @@
+.btn-primary {
+  background-color: #6c757d !important; /* Override primary button color */
+  border-color: #6c757d !important;
+}
+
+.text-muted {
+  color: #6c757d !important; /* Custom muted text color */
+}
