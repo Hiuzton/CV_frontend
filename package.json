@@ -9,18 +9,19 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
+    "autoprefixer": "^10.3.0",
+    "bootstrap": "5.3.3",
+    "bootstrap-icons": "1.11.3",
+    "emailjs-com": "3.2.0",
+    "framer-motion": "^12.4.2",
     "loader-utils": "3.2.1",
+    "postcss": "^8.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-scripts": "5.0.1",
-    "react-router-dom": "7.1.5",
     "react-hook-form": "7.54.2",
-    "bootstrap": "5.3.3",
-    "tailwindcss": "^3.0.0",
-    "postcss": "^8.3.0",
-    "autoprefixer": "^10.3.0",
-    "bootstrap-icons": "1.11.3",
-    "emailjs-com": "3.2.0"
+    "react-router-dom": "7.1.5",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.0.0"
   },
   "devDependencies": {
     "@types/react": "18.2.38",

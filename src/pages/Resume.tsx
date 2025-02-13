@@ -1,4 +1,9 @@
-import { educations, workExperiences, skills } from "../data/resumeData";
+import {
+  educations,
+  workExperiences,
+  skills,
+  languages,
+} from "../data/resumeData";
 
 export default function Resume() {
   return (
@@ -56,6 +61,21 @@ export default function Resume() {
             <ul className="list-disc list-inside text-gray-600">
               {skills.map((skill, index) => (
                 <li key={index}>{skill}</li>
+              ))}
+            </ul>
+          </div>
+        </section>
+        <hr />
+      </div>
+
+      {/* Language */}
+      <div className="container">
+        <section className="row">
+          <h2 className="col-10">Languages</h2>
+          <div className="col-2 text-right">
+            <ul className="list-disc list-inside text-gray-600">
+              {languages.map((lang, index) => (
+                <li key={index}>{lang}</li>
               ))}
             </ul>
           </div>

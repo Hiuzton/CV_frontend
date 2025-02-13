@@ -25,7 +25,22 @@ export const workExperiences = [
     company: "SC Continental",
     position: "Tool Developer Intern",
     period: "2023-2025",
-    description: "Developed tool for uC(micro-controller) testing using C#, .NET Framework, WPF",
+    description:
+      "Developed tool for uC(micro-controller) testing using C#, .NET Framework, WPF",
+  },
+  {
+    company: "1 Decembrie 1918 University of Alba Iulia",
+    position: "Hackathon Participant",
+    period: "2024",
+    description:
+      "Competed in a team of four, developing 'IBook'—a mobile application for borrowing books in parks. Presented the project to a panel of judges.",
+  },
+  {
+    company: "1 Decembrie 1918 University of Alba Iulia",
+    position: "InExtenso Research Conference Presenter",
+    period: "2023",
+    description:
+      "Presented 'CChat,' a real-time chat application, showcasing its development and features at the InExtenso research conference.",
   },
 ];
 
@@ -109,7 +124,5 @@ export const skills = [
   "SOLID Principles",
   "Design Patterns",
 ];
-
-export const skills = ["C#", ".NET Framework 4.5", ".NET 8.0", "ASP.NET Core", "Entity Framework", "AWS S3, Amplify, EC2", "SOLID Principles", "Design Patterns"];
 
 export const languages = ["English", "Romanian", "Russian", "Ucranian"];

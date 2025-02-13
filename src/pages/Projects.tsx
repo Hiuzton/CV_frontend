@@ -12,7 +12,7 @@ export default function Projects() {
         >
           <div className="container row mt-5">
             {/* Text Section */}
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-12">
               <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
               <p className="text-gray-600">{project.description}</p>
               <div className="flex flex-wrap">
@@ -37,7 +37,7 @@ export default function Projects() {
               </div>
             </div>
 
-            {/* Image Section */}
+            {/* Image Section }
             <div className="col-12 col-md-6 d-flex justify-content-center">
               <img
                 src={project.image}
@@ -45,6 +45,7 @@ export default function Projects() {
                 className="w-100 w-md-[100px] h-auto rounded-lg shadow-lg"
               />
             </div>
+            {*/}
           </div>
         </div>
       ))}
