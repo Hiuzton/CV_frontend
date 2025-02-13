@@ -37,7 +37,7 @@ export default function Footer() {
         <div className="d-flex justify-content-center mb-4"></div>
 
         {/* Footer Text */}
-        <p className="text-muted small">© 2024 By Hutsan Andrei.</p>
+        <p className="text-muted small">© 2025 By Hutsan Andrei.</p>
       </div>
     </footer>
   );
