@@ -1,4 +1,4 @@
-import React from "react";
+import { personalInfo } from "../data/resumeData";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -14,33 +14,45 @@ export default function Home() {
         />
         <h1 className="display-4 fw-bold">Hello</h1>
         <p className="lead text-muted">A Bit About Me</p>
-        <p className="mb-5">
-          I'm a paragraph. Click here to add your own text and edit me. I'm a
-          great place for you to tell a story and let your users know a little
-          more about you.
-        </p>
+        <p className="mb-5">{personalInfo.description}</p>
       </div>
 
       {/* Buttons Section */}
       <div className="d-flex justify-content-center gap-3 mb-5">
         <Link
           to="/resume"
-          className="btn btn-warning rounded-circle p-4"
-          style={{ width: "100px", height: "100px", fontSize: "16px" }}
+          className="btn btn-warning rounded-circle p-4 d-flex align-items-center justify-content-center"
+          style={{
+            width: "100px",
+            height: "100px",
+            fontSize: "18px",
+            display: "flex",
+          }}
         >
           Resume
         </Link>
+
         <Link
           to="/projects"
-          className="btn btn-danger rounded-circle p-4"
-          style={{ width: "100px", height: "100px", fontSize: "16px" }}
+          className="btn btn-danger rounded-circle p-4 d-flex align-items-center justify-content-center"
+          style={{
+            width: "100px",
+            height: "100px",
+            fontSize: "18px",
+            display: "flex",
+          }}
         >
           Projects
         </Link>
         <Link
           to="/contact"
-          className="btn btn-info rounded-circle p-4 text-white"
-          style={{ width: "100px", height: "100px", fontSize: "16px" }}
+          className="btn btn-info rounded-circle p-4 text-white d-flex align-items-center justify-content-center"
+          style={{
+            width: "100px",
+            height: "100px",
+            fontSize: "18px",
+            display: "flex",
+          }}
         >
           Contact
         </Link>
