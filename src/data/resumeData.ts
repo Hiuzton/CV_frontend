@@ -25,8 +25,7 @@ export const workExperiences = [
     company: "SC Continental",
     position: "Tool Developer Intern",
     period: "2023-2025",
-    description:
-      "Developed tool for uC(micro-controller) testing using C#, .NET Framework, WPF",
+    description: "Developed tool for uC(micro-controller) testing using C#, .NET Framework, WPF",
   },
 ];
 
@@ -110,5 +109,7 @@ export const skills = [
   "SOLID Principles",
   "Design Patterns",
 ];
+
+export const skills = ["C#", ".NET Framework 4.5", ".NET 8.0", "ASP.NET Core", "Entity Framework", "AWS S3, Amplify, EC2", "SOLID Principles", "Design Patterns"];
 
 export const languages = ["English", "Romanian", "Russian", "Ucranian"];
